@@ -32,7 +32,7 @@ const filePath = path.resolve(process.cwd(), cli.input[1]);
 
 awsSwaggerImport(filePath, cli.flags)
 	.then(() => {
-		console.log('  {$logSymbols.success}  done');
+		console.log(`  ${logSymbols.success}  done`);
 	})
 	.catch(err => {
 		console.error(`  ${logSymbols.error}  ${err.message}`);

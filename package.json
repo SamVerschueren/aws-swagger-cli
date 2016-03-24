@@ -1,6 +1,6 @@
 {
   "name": "aws-swagger-cli",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "AWS Swagger import cli",
   "license": "MIT",
   "repository": "SamVerschueren/aws-swagger-cli",

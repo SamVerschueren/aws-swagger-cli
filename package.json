@@ -1,0 +1,45 @@
+{
+  "name": "aws-swagger-cli",
+  "version": "0.0.0",
+  "description": "AWS Swagger import cli",
+  "license": "MIT",
+  "repository": "SamVerschueren/aws-swagger-cli",
+  "author": {
+    "name": "Sam Verschueren",
+    "email": "sam.verschueren@gmail.com",
+    "url": "github.com/SamVerschueren"
+  },
+  "bin": {
+    "aws-swagger": "cli.js"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "aws",
+    "swagger",
+    "import",
+    "aws-swagger",
+    "api",
+    "gateway",
+    "api-gateway"
+  ],
+  "dependencies": {
+    "aws-swagger-import": "^0.1.1",
+    "log-symbols": "^1.0.2",
+    "meow": "^3.6.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "execa": "^0.2.2",
+    "xo": "*"
+  }
+}

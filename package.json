@@ -33,7 +33,8 @@
     "api-gateway"
   ],
   "dependencies": {
-    "aws-swagger-import": "^0.1.1",
+    "aws-swagger-import": "^0.3.0",
+    "chalk": "^1.1.3",
     "log-symbols": "^1.0.2",
     "meow": "^3.6.0"
   },

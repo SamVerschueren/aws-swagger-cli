@@ -19,9 +19,10 @@ $ aws-swagger --help
     $ aws-swagger [action] [file]
 
   Options
-    --name     The name of the API Gateway
-    --profile  The local AWS profile
-    --region   The AWS region [Default: us-west-1]
+    --name          The name of the API Gateway
+    --aws-profile   The local AWS profile
+    --aws-region    The AWS region [Default: us-west-1]
+    --aws-filename  The credentials filename [Default: ~/.aws/credentials]
 
   Examples
     $ aws-swagger import swagger.json --name=gateway-name --profile=local-aws-profile

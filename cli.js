@@ -14,7 +14,7 @@ const cli = meow(`
 	  --name          The name of the API Gateway
 	  --aws-profile   The local AWS profile
 	  --aws-region    The AWS region [Default: us-west-1]
-		--aws-filename  The credentials filename [Default: ~/.aws/credentials]
+	  --aws-filename  The credentials filename [Default: ~/.aws/credentials]
 
 	Examples
 	  $ aws-swagger import swagger.json --name=gateway-name --aws-profile=local-aws-profile
